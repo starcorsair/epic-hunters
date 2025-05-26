@@ -803,6 +803,7 @@
 
   .nav__menu-mobile {
     margin-left: auto;
+    z-index: 5;
   }
 
   .burger-checkbox {
