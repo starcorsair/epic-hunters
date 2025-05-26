@@ -330,7 +330,34 @@
   z-index: -1;
 }
 
-/* SLIDER BUTTONS*/
+/* SLIDER */
+
+/* main container */
+
+.main__container-slider {
+  margin: auto;
+}
+
+/* slider container*/
+
+.slider {
+  width: 310px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* slider buttons */
 
 .buttons__flex {
   display: flex;
@@ -378,14 +405,9 @@
   color: #f6ffd2;
 }
 
-/* TEMP!! */
+/* slider images */
 
-/*
-.slider {
-  display: none;
-}
-
-*/
+/* SCREENS */
 
 /* PC SCREENS SIZES FOR GRID BLOCK*/
 
@@ -998,7 +1020,7 @@
 /* MOBILE EXCEPTIONS FOR LARGER SIZES*/
 
 @media (min-width: 1024px) {
-  .main_container-slider {
+  .main__container-slider {
     display: none;
   }
   .nav__flex-mobile {

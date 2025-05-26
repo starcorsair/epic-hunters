@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <script src="script.js"></script>
     <title>Epic Hunters</title>
   </head>
   <body class="body">
@@ -152,46 +153,54 @@
       </div>
       <!--mobile class-->
       <!--slider-->
-      <div class="main_container-slider">
-        <!--images continer-->
+      <div class="main__container-slider">
         <div class="slider">
-          <!--images-->
-          <img
-            src="images/slider-component.svg"
-            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            class="slider_image image-1"
-          />
-          <img
-            src="images/slider-component.svg"
-            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            class="slider_image image-2"
-          />
-          <img
-            src="images/slider-component.svg"
-            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            class="slider_image image-3"
-          />
-        </div>
-        <!--buttons-->
-        <div class="buttons__flex">
-          <!--first button-->
-          <button type="button" class="button__slider button__prev">
-            <img
-              src="images/solar_arrow-up-linear-left.svg"
-              alt="Arrow"
-              class="button__img img-prev"
-            />
-            <span class="button__text text-prev">loren ipsum</span>
-          </button>
-          <!--second button-->
-          <button type="button" class="button__slider button__next">
-            <img
-              src="images/solar_arrow-up-linear-right.svg"
-              alt="Arrow"
-              class="button__img img-next"
-            />
-            <span class="button__text text-next">loren ipsum</span>
-          </button>
+          <!--images continer-->
+          <div class="slides">
+            <!--images-->
+            <div class="slide">
+              <img
+                src="images/plashka.png"
+                alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                class="img-slide image-1"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="images/plashka.png"
+                alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                class="img-slide image-2"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="images/plashka.png"
+                alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                class="img-slide image-3"
+              />
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="buttons__flex">
+            <!--first button-->
+            <button type="button" class="button__slider button__prev" id="prev">
+              <img
+                src="images/solar_arrow-up-linear-left.svg"
+                alt="Arrow"
+                class="button__img img-prev"
+              />
+              <span class="button__text text-prev">loren ipsum</span>
+            </button>
+            <!--second button-->
+            <button type="button" class="button__slider button__next" id="next">
+              <img
+                src="images/solar_arrow-up-linear-right.svg"
+                alt="Arrow"
+                class="button__img img-next"
+              />
+              <span class="button__text text-next">loren ipsum</span>
+            </button>
+          </div>
         </div>
       </div>
       <!--end mobile-->
