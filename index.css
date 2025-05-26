@@ -338,6 +338,13 @@
   margin: auto;
 }
 
+/* main slider container*/
+
+.main__container-slider {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* slider container*/
 
 .slider {
