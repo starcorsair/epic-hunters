@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Epic Hunters</title>
+  </head>
+  <body class="body">
+    <!--header-->
+    <header class="header">
+      <!--navigation-->
+      <nav class="nav">
+        <!--mobile class logo-->
+        <div class="nav__flex-mobile">
+          <a href="#" class="nav__logo-mobile"
+            ><img
+              src="images/лого.svg"
+              class="nav__logo-image-mobile"
+              alt="Logo"
+          /></a>
+        </div>
+        <!--mobile class burger menu-->
+        <div class="nav__menu-mobile">
+          <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
+          <label for="burger-checkbox" class="burger"></label>
+          <div class="burger__menu">
+            <div class="burger__nav">
+              <!--logo-->
+              <a href="#" class="nav__logo-burger"
+                ><img
+                  src="images/лого_2.svg"
+                  class="nav__logo-image-burger"
+                  alt="Logo"
+              /></a>
+              <!--link-->
+              <a href="#" class="burger__nav-link">Loren Ipsum</a>
+            </div>
+            <!--list-->
+            <ul class="menu__list">
+              <li class="list__point">
+                <a href="#" class="list__item">Loren Ipsum</a>
+              </li>
+              <li class="list__point">
+                <a href="#" class="list__item">Loren Ipsum</a>
+              </li>
+              <li class="list__point">
+                <a href="#" class="list__item">Loren Ipsum</a>
+              </li>
+            </ul>
+            <div class="flex__search-mobile">
+              <div class="nav__search-mobile">
+                <form action="/search" method="get" class="nav__form-mobile">
+                  <input
+                    type="search"
+                    name="query"
+                    placeholder="Loren Ipsum"
+                    class="search-input-mobile"
+                  />
+                  <button type="submit" class="search__button-mobile"></button>
+                </form>
+              </div>
+            </div>
+            <!--footer burger menu-->
+            <div class="burger__menu-footer"></div>
+          </div>
+        </div>
+        <!--end mobile-->
+        <div class="nav__flex">
+          <a href="#" class="nav__logo"
+            ><img src="images/лого.svg" class="nav__logo-image" alt="Logo"
+          /></a>
+        </div>
+        <!--links-->
+        <div class="nav__flex flex__url">
+          <a href="#" class="nav__url">Loren Ipsum</a>
+          <a href="#" class="nav__url">Loren Ipsum</a>
+          <a href="#" class="nav__url">Loren Ipsum</a>
+        </div>
+        <!--search-->
+        <div class="nav__flex flex__search">
+          <!--search div-->
+          <div class="nav__search">
+            <form action="/search" method="get" class="nav__form">
+              <input
+                type="search"
+                name="query"
+                placeholder="Loren Ipsum"
+                class="search__input"
+              />
+              <button type="submit" class="search__button"></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--main-->
+    <main class="main">
+      <!--main header-->
+      <div class="main__container-head">
+        <h1 class="main__head">Loren Ipsum</h1>
+        <!--main grid container-->
+      </div>
+      <div class="main__container-grid">
+        <!--gird cells-->
+        <!--1-->
+        <div class="grid_bubble grid_background bubble-1">
+          <!--<div class="grid_background"> -->
+
+          <!-- </div> -->
+        </div>
+        <!--1b-->
+        <div class="grid grid_dot grid_dot-1 grid_dot-index"></div>
+        <!--2-->
+        <div class="grid_bubble grid_background bubble-2">
+          <!--<div class="grid_background"> -->
+
+          <!-- </div> -->
+        </div>
+        <!--2b-->
+        <div class="grid grid_dot grid_dot-2 grid_dot-index"></div>
+        <!--3-->
+        <div class="grid_bubble grid_background bubble-3">
+          <!--<div class="grid_background"> -->
+
+          <!-- </div> -->
+        </div>
+        <!--3b-->
+        <div class="grid grid_dot grid_dot-3 grid_dot-index"></div>
+        <!--4-->
+        <div class="grid_bubble grid_background bubble-4">
+          <!--<div class="grid_background"> -->
+
+          <!-- </div> -->
+        </div>
+        <!--4b-->
+        <div class="grid grid_dot grid_dot-4 grid_dot-index"></div>
+        <!--5-->
+        <div class="grid_bubble grid_background bubble-5">
+          <!--<div class="grid_background"> -->
+
+          <!-- </div> -->
+        </div>
+        <!--5b-->
+        <div class="grid grid_dot grid_dot-5 grid_dot-index"></div>
+        <!--6-->
+        <div class="grid_bubble grid_background bubble-6">
+          <!--<div class="grid_background"> -->
+
+          <!-- </div> -->
+        </div>
+      </div>
+      <!--mobile class-->
+      <!--slider-->
+      <div class="main_container-slider">
+        <!--images continer-->
+        <div class="slider">
+          <!--images-->
+          <img
+            src="images/slider-component.svg"
+            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            class="slider_image image-1"
+          />
+          <img
+            src="images/slider-component.svg"
+            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            class="slider_image image-2"
+          />
+          <img
+            src="images/slider-component.svg"
+            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            class="slider_image image-3"
+          />
+        </div>
+        <!--buttons-->
+        <div class="buttons__flex">
+          <!--first button-->
+          <button type="button" class="button__slider button__prev">
+            <img
+              src="images/solar_arrow-up-linear-left.svg"
+              alt="Arrow"
+              class="button__img img-prev"
+            />
+            <span class="button__text text-prev">loren ipsum</span>
+          </button>
+          <!--second button-->
+          <button type="button" class="button__slider button__next">
+            <img
+              src="images/solar_arrow-up-linear-right.svg"
+              alt="Arrow"
+              class="button__img img-next"
+            />
+            <span class="button__text text-next">loren ipsum</span>
+          </button>
+        </div>
+      </div>
+      <!--end mobile-->
+    </main>
+  </body>
+</html>
