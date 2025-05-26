@@ -9,17 +9,13 @@ function goToSlide(index) {
   } else if (index >= slideCount) {
     index = 0;
   }
-
   currentIndex = index;
   slides.style.transform = `translateX(${-index * 100}%)`;
 }
-
 prevButton.addEventListener("click", () => {
   goToSlide(currentIndex - 1);
 });
-
 nextButton.addEventListener("click", () => {
   goToSlide(currentIndex + 1);
 });
-
 goToSlide(0);
