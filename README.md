@@ -1,4 +1,5 @@
-# Epic hunters page
+# Epic Hunters page
+
 ## Технологии:
 - HTML
 - CSS
